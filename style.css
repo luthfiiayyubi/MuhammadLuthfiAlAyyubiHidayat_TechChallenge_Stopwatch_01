@@ -1,0 +1,51 @@
+/* mengatur agar tampilan di tengah layar */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  /* background gradient biar enak diliat */
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* container stopwatch  */
+.stopwatch {
+  background: white;
+  /* padding agar isi ga nempel */
+  padding: 30px;
+  /* sudutnya biar lebih melengkung  */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* display waktunya */
+#display {
+  font-size: 40px;
+  /* jarak bawah dari tombol  */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/* styling semua tombol */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* warna warna tombolnya */
+#start {
+  background: #4caf50;
+  color: white;
+}
+#pause {
+  background: #ff9800;
+  color: white;
+}
+#reset {
+  background: #f44336;
+  color: white;
+}
